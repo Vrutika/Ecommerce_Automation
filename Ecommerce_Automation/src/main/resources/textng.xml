@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Ecommerce Automation">
+
+	<listeners>
+		<listener class-name="com.ecomm.qa.ExtentReportListener.ExtentReporterNG" />
+	</listeners>
+
+
+	<test name="Ecommerce Test Cases">
+		<classes>
+			<class name="com.ecomm.qa.testcases.HomePageTest"></class>
+			<!-- 
+			<class name="com.ecommerce.qa.testcases.ContactsPageTest"></class> -->
+
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Ecommerce Automation]">
+  <listeners>
+    <listener class-name="com.ecomm.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="Ecommerce Test Cases(failed)">
+    <classes>
+      <class name="com.ecomm.qa.testcases.HomePageTest">
+        <methods>
+          <include name="ChangeDeliveryLocTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="SelectitemLeftMenuTest"/>
+        </methods>
+      </class> <!-- com.ecomm.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Ecommerce Test Cases(failed) -->
+</suite> <!-- Failed suite [Ecommerce Automation] -->
